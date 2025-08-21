@@ -4,7 +4,6 @@
 
     <div style="float:left; margin-top:10px; margin-right:10px;">
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-      <img src="/assets/rssicon.svg" width="40">
     </a>
     </div>
 
@@ -27,6 +26,8 @@
           {% if page.title and page.includelink %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
       </div>
+
+      <a class="page-link" href="https://erizosamurai.github.io">About</a>
     </nav>
   </div>
 
